@@ -1,0 +1,32 @@
+h1 {
+    width: 499px;
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+}
+
+h2 {
+    width: 499px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    color: green;
+}
+
+p {
+    font-family: Arial;
+    line-height: 25px;
+    text-align: justify;
+    width: 499px;
+    text-indent: 40px;
+    font-size: 17px;
+}
+i {
+    color: green;
+}
+
+ul {
+    width: 400px;
+    text-align: justify;
+    line-height: 20px;
+}
