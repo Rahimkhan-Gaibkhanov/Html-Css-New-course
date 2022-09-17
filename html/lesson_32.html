@@ -16,8 +16,114 @@
 </head>
 <body>
     <div>
-        <h2 class="h-two"></h2>
-        <a href="" class="a-link"></a><br><br>
+        <h2 class="h-two">Селектор потомков и классы</h2>
+        <a href="https://code.mu/ru/markup/book/prime/theory/descendant-selector-and-classes/" class="a-link">Селектор потомков и классы</a><br><br>
+    </div>
+        <!-- №1
+
+    Дан следующий код:
+
+    <p class="eee">
+        текст <i>курсив</i>
+    </p>
+    <p class="eee">
+        текст <i>курсив</i>
+    </p>
+    <div class="eee">
+        текст <i>курсив</i>
+    </div>
+    <div class="eee">
+        текст <i>курсив</i>
+    </div>
+    Покрасьте в красный цвет все теги i, находящиеся в элементах с классом eee. -->
+
+    <!-- <p class="eee">
+        текст <i>курсив</i>
+    </p>
+    <p class="eee">
+        текст <i>курсив</i>
+    </p>
+    <div class="eee">
+        текст <i>курсив</i>
+    </div>
+    <div class="eee">
+        текст <i>курсив</i>
+    </div> -->
+
+        <!-- №2
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+
+    .eee .bbb {
+        color: red;
+    } -->
+
+    <!-- <div class="eee">
+        <h1 class="bbb">Color red</h1>
+    </div> -->
+
+        <!-- №3
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+
+    .eee h2 {
+        color: red;
+    } -->
+
+    <!-- <div class="eee">
+        <h2>Color blue</h2>
+    </div> -->
+
+        <!-- №4
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+
+    .eee h2.bbb {
+        color: red;
+    } -->
+
+    <!-- <div class="eee">
+        <h2 class="bbb">Color green</h2>
+    </div> -->
+
+        <!-- №5
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+
+    .eee h3.bbb {
+        color: red;
+    } -->
+
+    <!-- <div class="eee">
+        <h3 class="bbb">Color yellow</h3>
+        <h2 class="bbb">Color NaN</h2>
+    </div> -->
+
+        <!-- №6
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+
+    .eee p.bbb {
+        color: red;
+    } -->
+
+    <!-- <div class="eee">
+        <p class="bbb">Paragraf</p>
+        <span class="bbb">Span</span>
+    </div> -->
+
+        <!-- №7
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+
+    .eee .bbb .kkk {
+        color: red;
+    } -->
+    <div class="eee">
+        <p class="kkk">Paragraf</p>
+        <div class="bbb">
+            <p class="kkk">Color red</p>
+        </div>
     </div>
 </body>
 </html>

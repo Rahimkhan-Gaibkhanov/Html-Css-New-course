@@ -1,0 +1,55 @@
+/* N1 */
+
+/* .eee i {
+    color: red;
+} */
+
+/* ====== */
+
+/* N2 */
+
+/* .eee .bbb {
+    color: red;
+} */
+
+/* ====== */
+
+/* N3 */
+
+/* .eee h2 {
+    color: blue;
+} */
+
+/* ====== */
+
+/* N4 */
+
+/* .eee h2.bbb {
+    color: green;
+} */
+
+/* ====== */
+
+/* N5 */
+
+/* .eee h3.bbb {
+    color: yellow;
+} */
+
+/* ====== */
+
+/* N6 */
+
+/* .eee p.bbb {
+    color: red;
+} */
+
+/* ====== */
+
+/* N7 */
+
+.eee .bbb .kkk {
+    color: red;
+} 
+
+/* ====== */

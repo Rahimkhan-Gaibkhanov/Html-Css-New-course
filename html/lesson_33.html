@@ -16,8 +16,56 @@
 </head>
 <body>
     <div>
-        <h2 class="h-two"></h2>
-        <a href="" class="a-link"></a><br><br>
+        <h2 class="h-two">Распространенная ошибка новичков</h2>
+        <a href="https://code.mu/ru/markup/book/prime/theory/descendant-selector-mistake/" class="a-link">Распространенная ошибка новичков</a><br><br>
+    </div>
+
+        <!-- №1
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+
+    p.bbb {
+        color: red;
+    } -->
+
+    <!-- <p class="bbb">P1</p>
+    <p class="eee">P2</p> -->
+
+        <!-- №2
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+
+    p .bbb {
+        color: red;
+    } -->
+
+    <!-- <p><span class="bbb">span1</span></p>
+    <p><span class="eee">span2</span></p> -->
+
+        <!-- №3
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+
+    .eee p.bbb {
+        color: red;
+    } -->
+
+    <!-- <div class="eee">
+        <p class="bbb">p1</p>
+        <p class="eee">p2</p>
+    </div> -->
+
+        <!-- №4
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+
+    .eee p .bbb {
+        color: red;
+    } -->
+
+    <div class="eee">
+        <p><span class="bbb">span1</span><span class="eee">span2</span></p>
+        <p>p</p>
     </div>
 </body>
 </html>
