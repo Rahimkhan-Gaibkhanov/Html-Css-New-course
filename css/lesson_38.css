@@ -1,0 +1,121 @@
+
+/* N1 */
+
+/* .bbb.zzz {
+    color: red;
+} */
+
+/* ====== */
+
+
+/* N2 */
+
+/* h2.bbb.zzz {
+    color: red;
+} */
+
+/* ====== */
+
+/* N3 */
+
+/* #elem.bbb {
+    color: red;
+} */
+
+/* ====== */
+
+/* N4 */
+
+/* #elem.bbb.zzz {
+    color: red;
+} */
+
+/* ====== */
+
+/* N5 */
+
+/* h2#elem.bbb {
+    color: red;
+} */
+
+/* ====== */
+
+/* N6 */
+
+/* h2.zzz {
+    color: red;
+} */
+
+/* ====== */
+
+/* N7 */
+
+/* h2 .zzz {
+    color: red;
+} */
+
+/* ====== */
+
+/* N8 */
+
+/* .bbb.zzz {
+    color: red;
+} */
+
+/* ====== */
+
+/* N9 */
+
+/* .bbb .zzz {
+    color: red;
+} */
+
+/* ====== */
+
+/* N10 */
+
+/* .bbb.zzz.xxx {
+    color: red;
+} */
+
+/* ====== */
+
+/* N11 */
+
+/* .bbb .zzz.xxx {
+    color: red;
+} */
+
+/* ====== */
+
+/* N12 */
+
+/* .bbb.zzz .xxx {
+    color: red;
+} */
+
+/* ====== */
+
+/* N13 */
+
+/* .bbb .zzz .xxx {
+    color: red;
+} */
+
+/* ====== */
+
+/* N14 */
+
+/* #elem.bbb {
+    color: red;
+} */
+
+/* ====== */
+
+/* N15 */
+
+#elem .bbb {
+    color: red;
+}
+
+/* ====== */

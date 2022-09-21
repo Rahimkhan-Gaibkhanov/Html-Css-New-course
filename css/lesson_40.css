@@ -1,0 +1,136 @@
+
+   /* N1 */
+
+/* div p {
+    color: springgreen;
+} */
+
+/* ====== */
+
+   /* N2 */
+
+/* div h2 {
+    color: springgreen;
+} */
+
+/* ====== */
+
+   /* N3 */
+
+/* #block p {
+    color: springgreen;
+} */
+
+/* ====== */
+
+   /* N4 */
+
+/* #block h2 {
+    color: springgreen;
+} */
+
+/* ====== */
+
+   /* N5 */
+
+/* .bbb {
+    color: springgreen;
+} */
+
+/* ====== */
+
+   /* N6 */
+
+/* #block .bbb {
+    color: springgreen;
+} */
+
+/* ====== */
+
+   /* N7 */
+
+/* p.bbb {
+    color: springgreen;
+} */
+
+/* ====== */
+
+   /* N8 */
+
+/* h2.bbb {
+    color: springgreen;
+} */
+
+/* ====== */
+
+   /* N9 */
+
+/* #block p.bbb {
+    color: springgreen;
+} */
+
+/* ====== */
+
+   /* N10 */
+
+/* .bbb, .xxx {
+    color: springgreen;
+} */
+
+/* ====== */
+
+   /* N11 */
+/* 
+p.bbb, h2.xxx {
+    color: springgreen;
+} */
+
+/* ====== */
+
+   /* N12 */
+
+/* #block p.bbb, #block p.xxx {
+    color: springgreen;
+} */
+
+/* ====== */
+
+   /* N13 */
+
+/* .fff {
+    color: springgreen;
+} */
+
+/* ====== */
+
+   /* N14 */
+
+/* .fff p {
+    color: springgreen;
+} */
+
+/* ====== */
+
+   /* N15 */
+
+/* p.fff {
+    color: springgreen;
+} */
+
+/* ====== */
+
+   /* N16 */
+
+/* .fff .bbb {
+    color: springgreen;
+} */
+
+/* ====== */
+
+   /* N17 */
+
+.fff h2.bbb {
+    color: springgreen;
+}
+
+/* ====== */

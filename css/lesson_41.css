@@ -1,0 +1,24 @@
+/* h2 {
+    font-size: 20px;
+}
+h2 {
+    font-size: 30px;
+} */
+
+/* h2 {
+    font-size: 20px;
+    color: blue;
+}
+h2 {
+    font-style: italic;
+    color: red;
+} */
+
+
+
+#block {
+	color: red;
+}
+p {
+	color: green; /* применится этот цвет */
+}
