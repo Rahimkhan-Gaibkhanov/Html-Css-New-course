@@ -1,0 +1,31 @@
+/* [title] {
+    color: springgreen;
+} */
+
+p[title] {
+    color: springgreen;
+}
+
+p[title="привет"] {
+    color: brown;
+}
+
+a[href^="http://"] {
+    color:darkcyan;
+}
+
+a[href$=".html"] {
+    color:gold;
+}
+
+p[title~="приве"] {
+    color:rgb(17, 24, 112);
+}
+
+p[title*="привет"] {
+    color:rgb(215, 31, 83);
+}
+
+p[class|="top-"] {
+    color:darkgoldenrod;
+}

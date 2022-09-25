@@ -16,8 +16,60 @@
 </head>
 <body>
     <div>
-        <h2 class="h-two"></h2>
-        <a href="" class="a-link"></a><br><br>
+        <h2 class="h-two">Сложные селекторы с состояниями ссылок на CSS</h2>
+        <a href="https://code.mu/ru/markup/book/prime/theory/link-complex-selectors/" class="a-link">Сложные селекторы с состояниями ссылок на CSS</a><br><br>
+    </div>
+
+    <!-- №1
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+    a {
+        color: red;
+    }
+    a:hover {
+        text-decoration: none;
+    } -->
+
+    <!-- <a href="http://yandex.ru">Yandex</a> -->
+
+    <!-- №2
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+    a.zzz {
+        color: red;
+    }
+    a.zzz:hover {
+        text-decoration: none;
+    } -->
+
+    <!-- <a href="http://yandex.ru" class="zzz">Yandex</a> -->
+
+    <!-- №3
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+    #block a.zzz {
+        color: red;
+    }
+    #block a.zzz:hover {
+        text-decoration: none;
+    } -->
+
+    <!-- <div id="block">
+        <a href="http://yandex.ru" class="zzz">Yandex</a>
+    </div> -->
+
+    <!-- №4
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+    .block a.zzz {
+        color: red;
+    }
+    .block a.zzz:hover {
+        text-decoration: none;
+    } -->
+
+    <div class="block">
+        <a href="http://yandex.ru" class="zzz">Yandex</a>
     </div>
 </body>
 </html>
