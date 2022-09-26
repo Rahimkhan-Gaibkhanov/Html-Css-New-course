@@ -1,0 +1,19 @@
+/* p:first-of-type {
+    color: red;
+}
+
+p:last-of-type {
+    color: green;
+} */
+
+/* p:nth-of-type(even) {
+    color: red;
+}
+
+p:nth-last-of-type(even) {
+    color: green;
+} */
+
+p:only-of-type {
+    color: red;
+}
