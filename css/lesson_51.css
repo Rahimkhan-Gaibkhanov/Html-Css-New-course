@@ -1,0 +1,16 @@
+
+.block-1 {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(107, 113, 229, 0.90);
+}
+
+.block-2 {
+    margin-top: 20px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    background-color: rgba(69, 239, 135, 0.90);
+    color: white;
+    font-size: 50px;
+}

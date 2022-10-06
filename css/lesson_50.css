@@ -1,0 +1,12 @@
+
+/* li:not(li.elem) {
+    color: springgreen;
+} */
+
+/* li:not(:first-child) {
+    color: springgreen;
+} */
+
+li:not(:first-child, :last-child) {
+    color: springgreen;
+}
