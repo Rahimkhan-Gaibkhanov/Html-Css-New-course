@@ -1,0 +1,65 @@
+
+/* .parent {
+    width: 400px;
+    height: 400px;
+    border: 2px solid orange;
+}
+
+.child {
+    width: 270px;
+    height: 100px;
+    border: dashed 2px blue; 
+    margin: 40px 40px 70px 20px;
+} */
+
+/* .parent {
+    width: 400px;
+    height: 600px;
+    border: 2px solid orange;
+}
+
+.child {
+    width: 200px;
+    height: 100px;
+    border: dashed 2px blue; 
+    margin: 250px 90px;
+} */
+
+/* .parent {
+    width: 400px;
+    height: 200px;
+    border: 2px solid orange;
+}
+
+.child {
+    width: 200px;
+    height: 100px;
+    border: dashed 2px blue; 
+    margin: 50px 90px;
+} */
+
+/* .parent {
+    width: 400px;
+    height: 400px;
+    border: 2px solid orange;
+}
+
+.child {
+    width: 200px;
+    height: 100px;
+    border: dashed 2px blue; 
+    margin: 220px 90px 50px;
+} */
+
+.parent {
+    width: 800px;
+    height: 250px;
+    border: 2px solid orange;
+}
+
+.child {
+    width: 400px;
+    height: 100px;
+    border: dashed 2px blue; 
+    margin: 55px 200px 100px;
+}
